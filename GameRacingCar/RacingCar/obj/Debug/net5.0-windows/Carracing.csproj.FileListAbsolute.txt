@@ -17,3 +17,4 @@ C:\Users\DELL\Desktop\Game-racing-car\GameRacingCar\RacingCar\obj\Debug\net5.0-w
 C:\Users\DELL\Desktop\Game-racing-car\GameRacingCar\RacingCar\obj\Debug\net5.0-windows\Carracing.pdb
 C:\Users\DELL\Desktop\Game-racing-car\GameRacingCar\RacingCar\obj\Debug\net5.0-windows\Carracing.genruntimeconfig.cache
 C:\Users\DELL\Desktop\Game-racing-car\GameRacingCar\RacingCar\obj\Debug\net5.0-windows\Carracing.csprojAssemblyReference.cache
+C:\Users\DELL\Desktop\Game-racing-car\GameRacingCar\RacingCar\obj\Debug\net5.0-windows\WinFormsApp2.Home.resources

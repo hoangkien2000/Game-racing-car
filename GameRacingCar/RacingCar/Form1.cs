@@ -87,8 +87,8 @@ namespace WinFormsApp2
         int carspeed = 2;
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.Left && mycar.Left>0) mycar.Left -= 3;
-            if (e.KeyCode == Keys.Right && mycar.Left < 400) mycar.Left += 3;
+            if (e.KeyCode == Keys.Left && mycar.Left>0) mycar.Left -= 5;
+            if (e.KeyCode == Keys.Right && mycar.Left < 400) mycar.Left += 5;
             if (e.KeyCode == Keys.Up && carspeed < 30) carspeed++;
             if (e.KeyCode == Keys.Down && carspeed >2) carspeed--;
 
@@ -124,7 +124,9 @@ namespace WinFormsApp2
                         moto4.Top = 0;
                         break;
                     case System.Windows.Forms.DialogResult.No:
-                        this.Close();
+                        Home a = new Home();
+                        a.Show();
+                        this.Visible = false;
                         break;
 
                 }
@@ -134,6 +136,11 @@ namespace WinFormsApp2
         }
 
         private void moto4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
